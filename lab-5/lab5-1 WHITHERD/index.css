@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #444d55, #ff3d3d);
+  height: 97vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.weather-card {
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 300px;
+  transition: 0.3s;
+}
+.weather-card:hover {
+  transform: translateY(-5px);
+}
+.weather-card h2 {
+  margin: 10px 0;
+}
+.temp {
+  font-size: 40px;
+  margin: 10px 0;
+  color: #0078d7;
+}
+.icon img {
+  width: 70px;
+  height: 70px;
+}

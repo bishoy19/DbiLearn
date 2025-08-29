@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./index.css" />
+    <title>Lab5 Task2</title>
+  </head>
+  <body>
+    <main class="container">
+      <h1>🔎 GitHub User Finder</h1>
+      <form id="searchForm" class="search-box" autocomplete="off">
+        <input type="text" id="username" placeholder="Enter GitHub username" />
+        <button id="searchBtn" type="submit">Search</button>
+      </form>
+      <p class="error" id="error"></p>
+      <section class="card" id="card" hidden>
+        <img id="avatar" src="" alt="User Avatar" />
+        <h2 id="name"></h2>
+        <p id="bio"></p>
+        <div class="stats">
+          <div><strong id="repos">0</strong><br />Repos</div>
+          <div><strong id="followers">0</strong><br />Followers</div>
+          <div><strong id="following">0</strong><br />Following</div>
+        </div>
+        <p>
+          <a id="profile" href="#" target="_blank" rel="noopener"
+            >View Profile</a
+          >
+        </p>
+      </section>
+    </main>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
